@@ -1,0 +1,51 @@
+/* Tablet; */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .wrap::before{
+        display: none;
+
+    }
+  
+    .login{
+        background-color: #293145;
+        padding: 32px;
+        margin: 0 70px;
+        border-radius: 10px;
+    }
+}
+
+@media (max-width: 1023px)
+{
+    .header{
+        display: none;
+    }
+    .wrap::before{
+        display: none;
+
+    }
+    .wrap{
+        background-color: rgb(35, 42, 59);
+    }
+    
+    .login__heading{
+        text-align: center;
+    }
+    .login__subhead{
+        display: block;
+    }
+    .login__button-btn{
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 739px){
+    .wrap{
+        padding: 12px;
+    }
+    .login{
+        border-radius: 10px;
+        background-color: #293145;
+        margin: 0  ;
+        padding: 32px 20px;
+    }
+}
